@@ -9148,7 +9148,9 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="2k"/>
 <part name="SUPPLY13" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="H3" library="holes" deviceset="MOUNT-HOLE" device="3.2" value="MOUNT-HOLE3.2"/>
-<part name="J1" library="SparkFun-Connectors" deviceset="RJ45-8" device="PTH" value="RJ45"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="RJ45-8" device="PTH" value="RJ45">
+<attribute name="FARNELL" value="1524544"/>
+</part>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="DGND" device=""/>
 <part name="C1" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF"/>
@@ -9227,7 +9229,9 @@ r=read/write operation
 <instance part="R4" gate="G$1" x="15.24" y="25.4" rot="R90"/>
 <instance part="SUPPLY13" gate="G$1" x="10.16" y="35.56"/>
 <instance part="H3" gate="G$1" x="256.54" y="165.1"/>
-<instance part="J1" gate="JP1" x="144.78" y="50.8"/>
+<instance part="J1" gate="JP1" x="144.78" y="50.8">
+<attribute name="FARNELL" x="144.78" y="50.8" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY3" gate="G$1" x="129.54" y="60.96"/>
 <instance part="GND6" gate="G$1" x="124.46" y="50.8" rot="R270"/>
 <instance part="C1" gate="G$1" x="81.28" y="58.42" rot="R180"/>

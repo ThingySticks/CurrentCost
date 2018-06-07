@@ -1,0 +1,29 @@
+{
+"version":"1.0",
+"product":"CurrentCost",
+"parts": [
+
+{"name":"C1", "value":"0.1uF", "case": "0805", "farnellPart":["1759167","2310668", "2310707"], "price":0.0045},
+{"name":"C2", "value":"", "case": "", "farnellPart":[""], "price":0.00, comment:"Electrolytic through hole"},
+{"name":"C3", "value":"0.1uF", "case": "0805", "farnellPart":["1759167","2310668", "2310707"], "price":0.0045},
+{"name":"C4", "value":"0.1uF", "case": "0805", "farnellPart":["1759167","2310668", "2310707"], "price":0.0045},
+
+{"name":"R1", "value":"1k5", "case": "1206", "comment": "bottom layer - optional", "farnellPart":["9335951","2129658"], "price":0.0013},
+{"name":"D1", "value":"reverse LED - Blue.", "comment": "bottom layer - optional", "farnellPart":"2217907", "price":0.23 },
+
+{"name":"D2", "value":"MBRA140T3G","farnellPart":"9555986", "comment":"", "price":0.106 },
+
+{"name":"R3", "value":"4k7", "case": "0805", "farnellPart":["9333266","2129167"], "mfgPartNo":"MC01W080514k7", "price":0.0009},
+{"name":"R4", "value":"4k7", "case": "0805", "farnellPart":["9333266","2129167"], "mfgPartNo":"MC01W080514k7", "price":0.0009},
+{"name":"R5", "value":"10k", "case": "0805", "farnellPart":["9332391","2129195"], "mfgPartNo":"MC01W0805110k", "price":0.0009},
+
+
+{"name":"CONN1", "value":"USB connector", "farnellPart":"2476092", "mfgPartNo":"MC000991", "price":0.35 },
+{"name":"U2", "value":"Photon", "comment":"User supplied. Photon, Electron or Bluz"},
+{"name":"U2a", "value":"12 Way Header",  "farnellPart":"1593465", "comment":"User supplied. Photon, Electron or Bluz", "quantity":"2", "price":0.0911},
+{"name":"U2a", "value":"18 Way Header", "farnellPart":"1801220", "comment":"Optional, use for Electron", "quantity":"2", "price":1.11},
+{"name":"U3", "value":"24LC512", "farnellPart":"1801220", "price":0.97},
+
+{"name":"J1", "value":"RJ45 Modular Jack", "comment":"","farnellPart":"1524544","mfgPartNo":"95501-2881", "mfg":"Molex", "price":0.62},
+],
+notes:"U3, R3/R4, C4 optional if not required for data logging in disconnected mode"}
